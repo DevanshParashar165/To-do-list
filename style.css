@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(34, 193, 195);
+    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(223, 45, 253, 1) 100%);
+}
+
+header h1 {
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 2px;
+}
+
+header {
+    background: rgb(63, 251, 141);
+    background: radial-gradient(circle, rgba(63, 251, 141, 1) 0%, rgba(183, 70, 252, 1) 100%);
+}
+
+.task {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vh 2vw;
+}
+
+.container {
+    height: 40vh;
+    width: 30vh;
+    padding: 0.5vw;
+    background-color: antiquewhite;
+    border: solid aliceblue 2px;
+    border-radius: 5px;
+    margin: 5vh 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container button {
+    background-color: transparent;
+    color: grey;
+    border: antiquewhite solid 2px;
+    margin-top: 1vh;
+    padding: 0.5vw;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 2vh 20vw;
+    border: solid aliceblue 2px;
+    border-radius: 5px;
+    padding: 2vh;
+    box-sizing: content-box;
+}
+
+.form table {
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.form label {
+    font-weight: bold;
+}
+
+.form input,
+.form textarea {
+    border: solid green 1px;
+    border-radius: 10px;
+    padding: 0.5vw;
+    margin: 0.5vh 0;
+    font-size: 1rem;
+}
+
+.form input {
+    width: 25vw;
+    height: 3vh;
+}
+
+.form textarea {
+    width: 25vw;
+    height: 6vh;
+}
+
+.addbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.addbutton button {
+    background-color: green;
+    color: antiquewhite;
+    border: solid white 2px;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+.addbutton button:hover {
+    transform: scale(1.2);
+}
+
+.container h2 {
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+textarea{
+    resize: none;
+}

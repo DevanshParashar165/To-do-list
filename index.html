@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/003/529/153/non_2x/business-to-do-list-flat-icon-modern-style-vector.jpg">
+</head>
+
+<body>
+    <header>
+        <h1>TO-Do-List</h1>
+    </header>
+    <main>
+        <div class="input">
+            <div class="form">
+                <table>
+                    <tr>
+                        <td><label for="task">TASK:</label></td>
+                        <td><input type="text" id="task" maxlength="50" placeholder="Enter Task here..." ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="description">DESCRIPTION:</label></td>
+                        <td><textarea name="description" id="description" placeholder="Enter description..." maxlength="210"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="addbutton">
+                <button type="button" onclick="addTask()">+ ADD TASK</button>
+            </div>
+        </div>
+
+        <div id="card" style="display: flex;justify-content:flex-start;flex-wrap: wrap;">
+
+        </div>
+
+    </main>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
